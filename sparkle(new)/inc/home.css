@@ -1,0 +1,119 @@
+body{
+    margin-top: 0;
+}
+#banner{
+    height: 65rem;
+}
+#about-us{
+    z-index: 10;
+}
+.navigation-bar{
+    position: relative;
+    z-index: 10;
+}
+.background-banner{
+    position: relative;
+    bottom: 10rem;
+    z-index: 0;
+}
+.input-search-bar{
+    background: transparent;
+    color: white;
+    border: 0;
+    border-bottom: 2px solid white;
+    width: 9rem;
+}
+.input-search-bar::placeholder{
+    color: white;
+}
+.banner-text{
+    position: absolute;
+    bottom: 30rem;
+    z-index: 2;
+    width: 60rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn-shop-now{
+   position: absolute;
+   bottom: 25rem;
+   border-radius: 45px;
+   padding: 10px 65px;
+   z-index: 5;
+   font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(#58b486, #2e6348);
+}
+
+
+.popular-product{
+    position: relative;
+    z-index: 5;
+    bottom: 8rem;
+}
+.btn-add-to-cart{
+   border-radius: 45px;
+   border:none;
+   font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #c12734;
+    color: white;
+    width: 10rem;
+}
+.text-product-name{
+    font-size:large;
+}
+
+.about-us-bg-1{
+    position: relative;
+    bottom: 66.5rem;
+    z-index: 0;
+}
+.about-us-bg-2{
+    position: relative;
+    z-index: 3;
+}
+.about-us-content{
+    position: relative;
+    bottom: 110rem;
+    z-index: 10;
+}
+.about-us-title{
+    position: relative;
+    bottom: 4rem;
+    width: 12rem;
+}
+.text-about-us{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 0.1rem;
+    bottom: 5rem;
+    font-size: 1.3rem;
+    width: 55rem;
+}
+.btn-learn-more{
+    border-radius: 45px;
+   border:none;
+   font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #c12734;
+    color: white;
+    width: 13rem;
+    height: 3rem;
+    position: relative;
+    top: 3rem;
+}
+.about-us-img{
+    width: 40rem;
+    position: relative;
+    left: 15rem;
+    bottom: 15rem;
+    
+}
